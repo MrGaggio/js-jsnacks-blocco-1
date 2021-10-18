@@ -17,6 +17,7 @@ let n10 = prompt("Digita un numero");
 const array = [n1, n2, n3, n4, n5, n6, n7, n8, n9, n10]
 let somma = 0
 
+//converte il valore delle stringhe in numeri e fa la somma dei valori contenuti nell'array
 for (let index = 0; index < array.length; index++) {
     somma += parseInt(array[index], 10);  
 }
