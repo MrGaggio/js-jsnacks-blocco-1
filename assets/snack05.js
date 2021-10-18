@@ -16,12 +16,20 @@ let n6 = prompt("Digita un numero");
 
 
 const array  = [n1, n2, n3, n4, n5, n6,]
+let vuoto = []
 let somma = 0
 
+
 //converte il valore delle stringhe in numeri e fa la somma dei valori contenuti nell'array
-for (let index = 0; index < array.length; index++) {
-    somma += parseInt(array[index], 6);     
-}
+  
+    for (let index = 0; index < array.length; index++) {
+    somma += parseInt(array[index]);
+    }
 
-console.log(somma);
+    if (somma % 2 == 0) {
+        risultato = true
+    }else
+        
+        vuoto.push (somma)
 
+    console.log(vuoto [0]);
