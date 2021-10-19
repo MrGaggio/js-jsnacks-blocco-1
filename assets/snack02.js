@@ -11,12 +11,12 @@ const words = [ wordOne, wordTwo]
 
 
 for (let i = 0; i < words.length; i++)
-console.log(words[i]);
 
-if (wordOne ) {
-    
-} else {
-    
+
+if (wordOne.length > wordTwo.length ) {
+    console.log(wordTwo);
+} else if (wordTwo.length > wordOne.length) {
+   console.log(wordOne);
 }
 
 
