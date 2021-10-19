@@ -6,17 +6,14 @@ let wordOne = prompt("scrivi una parola")
 let wordTwo = prompt("adesso scrivi un'altra parola")
 
 
-const words = [ wordOne, wordTwo]
-
-
-
-for (let i = 0; i < words.length; i++)
 
 
 if (wordOne.length > wordTwo.length ) {
-    console.log(wordTwo);
-} else if (wordTwo.length > wordOne.length) {
-   console.log(wordOne);
+    console.log( wordTwo);
+    console.log( wordOne);
+} else if (wordTwo.length > wordOne.length){
+    console.log(wordOne);
+    console.log(wordTwo)
 }
 
 

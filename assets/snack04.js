@@ -2,13 +2,31 @@
 Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o
 no alla festa.*/
 
+/* Strumenti
+
+- array
+- promt
+- array.includes (sostituto di for)
+- if
+
+*/
+
+const invitati = ["Stefano", "Marco", "Giuseppe", "Antonio"];
+
+let user_name = prompt("dobbiamo verificare se puoi accedere alla festa: digita il tuo nome")
+
+if(invitati.includes(user_name)){
+    console.log("welcome");
+}else {
+    console.log(sorry);
+}
 
 
-const array = ["Stefano", "Marco", "Giuseppe", "Antonio"];
-
-let nome = prompt("dobbiamo verificare se puoi accedere alla festa: digita il tuo nome")
 
 
+
+
+/* 
 nome_trovato = false
 
 for (let index = 0; index < array.length; index++) {
@@ -20,4 +38,4 @@ for (let index = 0; index < array.length; index++) {
         console.log("mi spiace non puoi partecipare");
     }
     
-}
+} */

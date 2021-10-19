@@ -5,9 +5,9 @@ let numberOne = prompt("Digita un numero")
 let numberTwo = prompt('Digita un altro numero')
 
 if (numberOne > numberTwo) {
-    console.log(numberOne);
+    console.log(numberOne, numberTwo);
 } else if(numberTwo > numberOne){
-    console.log(numberTwo);
+    console.log(numberTwo, numberOne);
 } else if( numberOne = numberTwo)
     console.log("try again");
 

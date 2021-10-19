@@ -3,11 +3,41 @@ Chiedi per 6 volte all’utente di inserire un numero,
 se è dispari inseriscilo nell’array.*/
 
 
+/* strumenti
+
+- array
+- for
+- promt
+- if
+- %
+
+*/
+const odd_numbers = []
+
+for (let i = 0; i < 6; i++ ){
+    const user_number = parseInt(prompt("type a number"))
+}
+
+
+
+if (user_name % 2 !== 0) {
+    odd_numbers.push (user_number)
+
+    }
 
 
 
 
-let n1 = prompt("Digita un numero");
+
+
+
+
+
+
+
+
+
+/* let n1 = prompt("Digita un numero");
 let n2 = prompt("Digita un numero");
 let n3 = prompt("Digita un numero");
 let n4 = prompt("Digita un numero");
@@ -32,4 +62,4 @@ let somma = 0
         
         vuoto.push (somma)
 
-    console.log(vuoto [0]);
+    console.log(vuoto [0]); */
